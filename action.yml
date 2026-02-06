@@ -1,6 +1,6 @@
 name: Golistics
 author: ufukty
-description: Warns for holistic methods miss fields.
+description: Reports the holistic methods miss struct fields.
 branding: { icon: shield, color: orange }
 runs:
   using: composite
