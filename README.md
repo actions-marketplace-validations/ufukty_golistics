@@ -92,7 +92,6 @@ func (s Margin) IsEqual(y Margin) bool {
 ```
 
 ```sh
-go vet --vettool="$(which golistics)" ./...
 pkg/analyzer/testdata/gss.go:173:1: missing fields: Height, Width
 pkg/analyzer/testdata/gss.go:241:1: missing fields: Bottom, Left, Right, Top
 pkg/analyzer/testdata/gss.go:246:1: missing field: Top
