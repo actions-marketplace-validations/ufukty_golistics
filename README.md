@@ -92,7 +92,7 @@ func (s Margin) IsEqual(y Margin) bool {
 ```
 
 ```sh
-pkg/analyzer/testdata/gss.go:173:1: missing fields: Height, Width
-pkg/analyzer/testdata/gss.go:241:1: missing fields: Bottom, Left, Right, Top
-pkg/analyzer/testdata/gss.go:246:1: missing field: Top
+gss.go:173:1: missing fields: Height, Width
+gss.go:241:1: missing fields: Bottom, Left, Right, Top
+gss.go:246:1: missing field: Top
 ```
