@@ -1,0 +1,9 @@
+name: Golistics
+author: ufukty
+description: Reports the holistic methods miss struct fields.
+branding: { icon: shield, color: orange }
+runs:
+  using: composite
+  steps:
+    - { shell: bash, run: go install go.ufukty.com/golistics@v0.2.2 }
+    - { shell: bash, run: go vet --vettool="$(which golistics)" ./... }
