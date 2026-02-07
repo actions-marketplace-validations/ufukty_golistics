@@ -13,4 +13,4 @@ jobs:
       - uses: actions/checkout@v6
       - uses: actions/setup-go@v6
         with: { go-version-file: go.mod, cache: true }
-      - uses: ufukty/golistics@v0.2.2
+      - uses: ufukty/golistics@v0.3.0
